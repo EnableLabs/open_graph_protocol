@@ -1,3 +1,1 @@
-class OpenGraphProtocol
-  # just a stub to put the files in place
-end
+require 'open_graph_protocol/railtie' if defined?(Rails)
