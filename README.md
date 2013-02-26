@@ -1,0 +1,1 @@
+The Open Graph Protocol gem has been created to facilitate ruby projects in populating open graph meta tags on their web pages. For more documentation on the Open Graph Protocol, look at http://ogp.me
