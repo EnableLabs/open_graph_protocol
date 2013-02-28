@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'open_graph_protocol'
-  s.version = '0.0.2'
-  s.date = '2013-02-26'
+  s.version = '0.1.0'
+  s.date = '2013-02-28'
   s.summary = 'A gem to facilitate populating the open graph protocol metatags on a web page'
   s.description = 'A gem to facilitate populating the open graph protocol metatags on a web page as part of a rails helper.'
   s.authors = ['Enable Labs', 'John Fitzpatrick']
