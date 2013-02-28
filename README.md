@@ -6,15 +6,15 @@ The Open Graph Protocol gem has been created to facilitate ruby projects in popu
 
 Add this line to your application's Gemfile
 
-  gem 'open_graph_protocol'
+	gem 'open_graph_protocol'
 
 And then execute:
 
-  bundle
+	bundle
 
 If you're not using bundler, you can install it manually via:
 
-  gem install open_graph_protocol
+	gem install open_graph_protocol
 
 ## Usage
 
@@ -22,12 +22,12 @@ The gem provides a helper method in your view that will digest a Hash of the dat
 
 Setting 'title', 'image', and 'url'
 
-  <%= og({title: 'Enable Labs', image: 'http://www.enablelabs.com/logo.png', url: 'http://www.enablelabs.com'}) %>
+	<%= og({title: 'Enable Labs', image: 'http://www.enablelabs.com/logo.png', url: 'http://www.enablelabs.com'}) %>
 
 which produces
 
-  <meta property="og:title" content="Enable Labs" />
-  <meta property="og:image" content="http://www.enablelabs.com/logo.png" />
-  <meta property="og:url" content="http://www.enablelabs.com/" />
+	<meta property="og:title" content="Enable Labs" />
+	<meta property="og:image" content="http://www.enablelabs.com/logo.png" />
+	<meta property="og:url" content="http://www.enablelabs.com/" />
 
 For more documentation on the Open Graph Protocol, look at http://ogp.me
